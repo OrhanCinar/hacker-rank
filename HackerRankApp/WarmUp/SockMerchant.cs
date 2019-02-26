@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace HackerRankApp.Warmup
+namespace HackerRankApp.WarmUp
 {
     public class SockMerchant
     {
@@ -26,7 +24,6 @@ namespace HackerRankApp.Warmup
 
             var pairCount = 0;
 
-
             foreach (var item in dic)
             {
                 var totalPairs = item.Value % 2;
@@ -34,7 +31,7 @@ namespace HackerRankApp.Warmup
                 if (totalPairs == 0)
                 {
                     pairCount += item.Value / 2;
-                }   
+                }
                 else
                 {
                     var evenPair = item.Value / 2;

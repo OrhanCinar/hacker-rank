@@ -1,4 +1,4 @@
-﻿using HackerRankApp.Warmup;
+﻿using HackerRankApp.WarmUp;
 using System;
 
 namespace HackerRankApp
@@ -7,9 +7,8 @@ namespace HackerRankApp
     {
         static void Main(string[] args)
         {
-            var C = new SockMerchant();
-            var socks = new[] { 1, 1, 3, 1, 2, 1, 3, 3, 3, 3 };
-            var t = C.PairSocks(10, socks);
+            var C = new CountingValleys();
+            var t = C.CountValley(8, "UDDDUDUU");
             Console.WriteLine(t);
 
 
