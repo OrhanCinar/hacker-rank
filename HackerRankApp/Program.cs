@@ -7,8 +7,8 @@ namespace HackerRankApp
     {
         static void Main(string[] args)
         {
-            var C = new CountingValleys();
-            var t = C.CountValley(8, "UDDDUDUU");
+            var C = new JumpingOnTheClouds();
+            var t = C.CountJumps(new []{ 0, 0, 0, 0, 1, 0});
             Console.WriteLine(t);
 
 
