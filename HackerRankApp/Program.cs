@@ -7,8 +7,8 @@ namespace HackerRankApp
     {
         static void Main(string[] args)
         {
-            var C = new JumpingOnTheClouds();
-            var t = C.CountJumps(new []{ 0, 0, 0, 0, 1, 0});
+            var C = new RepeatedString();
+            var t = C.CountString("aba", 20);
             Console.WriteLine(t);
 
 
